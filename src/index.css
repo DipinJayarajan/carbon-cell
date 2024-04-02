@@ -1,13 +1,88 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* 
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none; 
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  } */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    }
+    
+    .appContainer {
+      width: 100%;
+      background-color: black;
+      height: 100vh;
+      overflow-y: auto;
+      /* flex-direction: column; */
+    }
+    
+    ::-webkit-scrollbar {
+      width: 4px;
+      border: 1px solid #d5d5d5;
+      height: 50px;
+    }
+    
+    ::-webkit-scrollbar-track {
+      border-radius: 0;
+      background: #25e054;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+      border-radius: 0;
+      background: #050505;
+      height: 50px; 
+    }
+    
+    /* Handle on hover */
+    /* ::-webkit-scrollbar-thumb:hover {
+      background: #0ae627;
+    } */
+
+.name {
+    background:linear-gradient(#6adf4a, #dee70d);
+    -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+  }
+  
+  .headingsContainer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .headings {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  }
+  
+  .startTradingbtn button {
+      background-color: #53cf30;
+      font-size: 15px;
+
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+
+  .ant-btn{
+    background-color: black !important;
+    border-color: gray !important;
+    color: #ffff !important;
+    font-weight: 600;
+
+  }
+  
