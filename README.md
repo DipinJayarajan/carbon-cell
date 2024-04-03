@@ -1,3 +1,9 @@
+# Screen-Shot of the project
+![image](https://github.com/DipinJayarajan/carbon-cell/assets/95134716/04e590a2-d985-4605-bbab-d041ade69b30)
+
+# Carbon Cell Dashboard
+Carbon Cell is an online platform committed to delivering insights on carbon emissions, population trends, and cryptocurrency values. Leveraging APIs, it retrieves up-to-date data, ensuring a smooth and informative experience for users concerned with environmental matters and crypto markets.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
